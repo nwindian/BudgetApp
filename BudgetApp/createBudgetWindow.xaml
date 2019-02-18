@@ -9,6 +9,8 @@
     <Grid>
         <StackPanel x:Name="createBStack">
             <TextBlock Text="Create" HorizontalAlignment="center" Margin="0,50,0,0" FontSize="16" FontWeight="Bold"/>
+            <TextBlock Text="Budget" HorizontalAlignment="Center" Margin="10" />
+            <TextBox x:Name="nameOfText" Margin="350, 5"/>
 
         </StackPanel>
 

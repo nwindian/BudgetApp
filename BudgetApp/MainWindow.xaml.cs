@@ -28,6 +28,9 @@ namespace BudgetApp
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // this.Title = "Clicked";
+            var newWindow = new createBudgetWindow();
+            newWindow.Show();
+
 
         }
     }
